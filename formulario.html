@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>Formulario</title>
+
+</head>
+
+<body>
+
+    <div>
+        <h1 id="titulo"> Cadastro </h1>
+    </div>
+    <div>
+        <h2 id="subtitulo"> Preencha as informações: </h2>
+    </div>
+    <br>
+
+    <form>
+
+        <fieldset class=" grupo">
+
+            <div class="campo">
+
+                <label for="nome"> Nome: </label>
+                <input type="text" nome="nome" id="Nome" required>
+
+                <label for="idade"> Idade: </label>
+                <input type="number" nome="Idade" id="Idade">
+
+                <label for="email"> Email: </label>
+                <input type="Email" nome="email" id="Email" required>
+
+
+            </div>
+
+
+        </fieldset>
+
+        <fieldset class="campo">
+
+            <label> Opções de escolha: </label>
+            <br>
+            <label>  <input type="radio" nome= "opção" value= "opções" checked>  Opção 1  </label>
+            <br>
+            <label>  <input type="radio" nome= "opção1" value= "opções1"> Opção 2  </label>
+            <br>
+            <label>  <input type="radio" nome= "opção2" value= "opções2"> Opção 3  </label>
+            <br>
+
+        </fieldset>
+
+
+
+        <fieldset>
+
+            <div class="campo"> <label> Opções corridas:   </label>
+                <select id="opcoescorridas">
+                <option selected disabled value=""> Selecione... </option> 
+              </div>
+
+            </fieldset>
+
+            <fieldset> 
+
+            <div class="campo"> 
+
+                <option> Opção 1</option>
+
+                <option> Opção 2</option>
+
+                <option> Opção 3</option>
+
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset class="campo">
+
+            <div id="checkbox">
+
+                <label>  Selecione as opção que utiliza: </label>
+
+                <Label for="op1"> Opção 1 </Label>
+                <input type="checkbox" id="op1" nome="op1" value="HTML">
+
+
+                <Label for="op1"> Opção 2 </Label>
+                <input type="checkbox" id="op1" nome="op1" value="HTML">
+
+
+                <Label for="op1"> Opção 3 </Label>
+                <input type="checkbox" id="op1" nome="op1" value="HTML">
+
+
+                <Label for="op1"> Opção 4 </Label>
+                <input type="checkbox" id="op1" nome="op1" value="HTML">
+
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <div class="campo">
+
+
+                <label> Descreva: </label>
+                <textarea name="sobrevcsobrevc" id="" cols="26" rows="6"></textarea>
+
+
+            </div>
+
+            <div> <button class="botão" type="submit"> Enviar </button> </div>
+
+
+        </fieldset>
+
+
+
+    </form>
+
+</body>
+
+</html>
